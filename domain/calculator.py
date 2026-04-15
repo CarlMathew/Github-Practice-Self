@@ -1,4 +1,4 @@
-
+import numpy as np
 
 def add(a: int, b: int) -> int:
 
@@ -14,3 +14,6 @@ def minus(a: int , b: int) -> int:
 def multiplaction(a: int, b:int) -> int:
     multiplaction_calculation = a * b
     return multiplaction_calculation
+
+def average(arr) -> float:
+    return np.average(arr)

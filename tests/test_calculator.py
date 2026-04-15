@@ -1,5 +1,5 @@
 
-from domain.calculator import add, minus, multiplaction
+from domain.calculator import add, minus, multiplaction, average
 
 
 def test_add():
@@ -9,3 +9,5 @@ def test_minus():
     assert minus(5, 2) == 3
 def test_multiplaction():
     assert multiplaction(5, 5) == 25
+def test_average():
+    assert average([1,2,3]) == 2
