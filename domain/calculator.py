@@ -17,3 +17,7 @@ def multiplaction(a: int, b:int) -> int:
 
 def average(arr) -> float:
     return np.average(arr)
+
+def division(a: int, b: int) -> int:
+    division = a / b
+    return division
