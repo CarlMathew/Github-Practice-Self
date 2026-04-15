@@ -11,4 +11,4 @@ def test_multiplaction():
     assert multiplaction(5, 5) == 25
 
 def test_division():
-    assert division(10, 2) == 2
+    assert division(10, 2) == 5
