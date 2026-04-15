@@ -8,4 +8,4 @@ def test_add():
 def test_minus():
     assert minus(5, 2) == 3
 def test_multiplaction():
-    assert multiplaction(5 * 5) == 25
+    assert multiplaction(5, 5) == 25
