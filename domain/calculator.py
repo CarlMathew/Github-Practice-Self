@@ -14,3 +14,8 @@ def minus(a: int , b: int) -> int:
 def multiplaction(a: int, b:int) -> int:
     multiplaction_calculation = a * b
     return multiplaction_calculation
+
+
+def division(a: int, b: int) -> int:
+    division = a / b
+    return division
